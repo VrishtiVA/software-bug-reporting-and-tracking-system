@@ -23,10 +23,18 @@ This project aims to develop a web-based software bug reporting and tracking sys
 
 ## Techstack
 
-- __Spring Boot__ - To build the core backend to manage application security and data persistance.
-- __FastAPI__ - To build a specialised microservice for duplicate detection.
+- __Java & Spring Boot__ - To build the core backend to manage application security and data persistance.
+- __Python & FastAPI__ - To build a specialised microservice for duplicate detection.
 - __React__ - To build the frontend.
-- __MaterialUI__ - The UI framework for providing consistent styling and with built-in baseline accessibility.
+- __MaterialUI__ - The UI framework for providing consistent styling and built-in baseline accessibility.
+
+## Project Reflections
+
+> Working on this project was a valuable full-stack development experience, allowing me to deepen my understanding of Spring Boot while exploring newer technologies including React and FastAPI. I gained practical experience in designing modular services, implementing asynchronous processing, and considering scalability in application architecture. I was also able to reflect on my architectural decisions to identify opportunities for future improvement and development.
+
+<!-- ## Future Potential
+
+ -->
 
 ## Repository Structure
 
@@ -43,14 +51,6 @@ va104
         ├── backend/
         ├── microservice/
 ```
-
-## Project Reflections
-
-> Working on this project was a valuable full-stack development experience, allowing me to deepen my understanding of Spring Boot while exploring newer technologies including React and FastAPI. I gained practical experience in designing modular services, implementing asynchronous processing, and considering scalability in application architecture. I was also able to reflect on my architectural decisions to identify opportunities for future improvement and development.
-
-<!-- ## Future Potential
-
- -->
 
 ## Set-Up Instructions
 This section provides instructions for a local set-up of the project.
