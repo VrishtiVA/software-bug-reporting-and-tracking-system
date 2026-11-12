@@ -1,0 +1,116 @@
+{
+    "summary": {
+        "required": true,
+        "tooltip": "Try to keep this short and descriptive, e.g. about 5 words to summarise the bug. You could also mention if you saw any specific error codes here.",
+        "placeholder": "",
+        "question": "Summarise the issue in a few words",
+        "keyword": "Summarise"
+    },
+    "steps": {
+        "required": true,
+        "tooltip": "You are allowed to include a maxiumum of 150 words here.",
+        "placeholder": "",
+        "simple": {
+            "question": "What steps did you take before finding this issue?",
+            "keyword": "steps"
+        },
+        "advanced": {
+            "question": "Provide the exact steps to reproduce this issue",
+            "keyword": "steps to reproduce"
+        }
+    },
+    "environment": {
+        "required": true,
+        "tooltip": "This is the environment for the bug. Try to provide details of the browser, device, and operating system that you were using if you could. E.g. Google Chrome on Windows Desktop...",
+        "placeholder": "E.g. which computer or phone, app or browser were you using...",
+        "simple": {
+            "question": "What were you using when this happened?",
+            "keyword": "using"
+        },
+        "advanced": {
+            "question": "Provide the environment where this issue occurred",
+            "keyword": "environment"
+        }
+    },
+    "expected": {
+        "required": true,
+        "tooltip": "Imagine if the issue didn't occur, what would you have expected to happen or see instead?",
+        "placeholder": "",
+        "question": "What did you expect to happen?",
+        "keyword": "expect"
+    },
+    "actual": {
+        "required": true,
+        "tooltip": "You could also mention if you saw any specific error codes here.",
+        "placeholder": "",
+        "question": "What actually happened instead?",
+        "keyword": "actually"
+    },
+    "user_impact_rating": {
+        "required": true,
+        "tooltip": "This field aims to gauge the user impact rating for the issue.",
+        "simple": {
+            "question": "How much did this issue prevent you from finishing your task?",
+            "ratings": [
+                "No impact - I could continue normally but I just noticed something odd.",
+                "Minor inconvenience - Slight slowdown but I could finish with almost no trouble.",
+                "Moderate - It made the task harder, but I still managed to complete it.",
+                "Major impact - I struggled significantly or had to find a work around.",
+                "Completely blocked - I couldn't complete my task because of this bug."
+            ]
+        },
+        "advanced": {
+            "question": "How much would this issue prevent users from completing their tasks?",
+            "ratings": [
+                "No impact - Users should be able to continue normally.",
+                "Minor inconvenience - Users may be slightly slowed down, but should have no problem completing their task.",
+                "Moderate - Users may have trouble or difficulty in completing their task, but it is still possible.",
+                "Major impact - Users may struggle significantly or have to find a workaround.",
+                "Completely blocked - Users cannot complete their task because of this bug."
+            ]
+        }
+    },
+    "severity_rating": {
+        "required": true,
+        "tooltip": "The aim of this field is the gauge the severity rating for this issue.",
+        "question": "How much is this issue affecting the systems expected behaviour?",
+        "ratings": [
+            "Tiny - Just a cosmetic or small visual issue while feature works mostly correctly.",
+            "Minor - A small functional problem but feature mostly works as expected.",
+            "Moderate - Feature sometimes malfunctions or behaves inconsistently.",
+            "Major - Feature is clearly broken and fails to perform its function properly.",
+            "Critical - There is a complete failure where the feature or system crashes, or data is lost."
+        ]
+    },
+    "attachments": {
+        "required": false,
+        "simple": {
+            "question": "Attach a screenshot or video clip that shows the issue (Optional)",
+            "tooltip": "Screenshots and video clips could help developers see the problem more clearly. Alternatively, you could provide log screenshots if you know where they are. You are allowed to upload a single attachment, and the supported file types are .png, .jpg, .jpeg, .mp4, and .webm."
+        }, 
+        "advanced": {
+            "question": "Attach screenshots or video clips showing the issue (Optional, up to 3)",
+            "tooltip": "Screenshots and video clips could help developers see the problem more clearly. Alternatively, you could provide log screenshots if you know where they are. You are allowed to upload up to 3 attachments, and the supported file types are .png, .jpg, .jpeg, .mp4, and .webm."
+        }
+    },
+    "fix_suggestions": {
+        "required": false,
+        "question": "If you have any ideas for a fix or a workaround, describe them here (Optional)",
+        "tooltip": ""
+    },
+    "labels": {
+        "required": false,
+        "question": "Add any relevant labels to this bug report (Optional)",
+        "tooltip": "You can select and add multiple labels from those that are available for this workspace."
+    },
+    "additional_comments": {
+        "required": false,
+        "question": "Any other details you think might help? (Optional)",
+        "tooltip": "You could use this as an additional comments section, but try to keep it relevant to the bug."
+    },
+    "consent": {
+        "required": true,
+        "question": "I agree for this bug report to be seen and interacted with by anyone who has access to this workspace. If the workspace is public, this would include those who are not direct members of the workspace too.",
+        "tooltip": "This is to help create a collaborative environment to help us resolve your bug report quickly. However, please ensure that your submission does not include any sensitive information."
+    }
+}

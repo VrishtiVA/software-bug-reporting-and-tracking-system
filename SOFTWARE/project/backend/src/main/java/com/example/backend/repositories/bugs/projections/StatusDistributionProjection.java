@@ -1,0 +1,8 @@
+package com.example.backend.repositories.bugs.projections;
+
+import com.example.backend.model.bugs.ReportContainerStatus;
+
+public interface StatusDistributionProjection {
+    ReportContainerStatus getStatus();
+    Integer getBugCount();
+}
