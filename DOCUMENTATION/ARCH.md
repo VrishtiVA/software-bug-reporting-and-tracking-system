@@ -56,10 +56,10 @@ flowchart TB
     n2["REST Controllers"]
     n3["Services"]
     n9["Model"]
-    n4["Data Repositories (JPA)"]
+    n4["DAO / Data Repositories (JPA)"]
   end
   subgraph s3["fastapi-duplicate-detection-microservice"]
-    n6["Database Services"]
+    n6["DAO / Database Services"]
     n17["Data Transfer Objects (DTO) using Pydantic"]
     n18["Routes"]
     n19["Services"]
@@ -86,7 +86,6 @@ flowchart TB
   n18 <--> n19
   n20 -.-> n19 & n21
   n21 --> n19
-  n9 --> n4
 
 %%  n10@{ shape: lean-l}
 %%  n17@{ shape: lean-l}

@@ -1,4 +1,4 @@
-# Entity Relationship Diagram
+# Entity Relationship Diagram (ERD)
 
 > This file contains the __Entity Relationship Diagram (ERD)__ for this project, originally created as part of the Interim Report. Note: Since GitLab only supports an older version of Mermaid, the configuration of this diagram is adapted for it to appear on GitLab. The original ERD diagram was included in the Interim Report.
 
@@ -151,7 +151,7 @@ erDiagram
     }
 ```
 
-## Updated Diagram for Dissertation
+## Updated ERD
 
 ```mermaid
 %%{init: { 
